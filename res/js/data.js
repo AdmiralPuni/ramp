@@ -3,9 +3,9 @@ var data = {
         "name": "Grogol Digital Payment",
         "type": "Fullstack Web Development",
         "images": [
-            "res/images/gdpay/1.png",
-            "res/images/gdpay/2.png",
-            "res/images/gdpay/3.png"
+            "res/images/gdpay/1.jpg",
+            "res/images/gdpay/2.jpg",
+            "res/images/gdpay/3.jpg"
         ],
         "description": "Cashless payment system used inside a local village. Designed to be able to integrate future services, highly secure, & requires minimal operator. Built around both desktop and mobile interface while maintaining Progressive Web App requirements.",
         "tools": [
@@ -62,9 +62,9 @@ var data = {
         "name": "Filling Machine Automation",
         "type": "Microcontroller",
         "images": [
-            "res/images/pro1/1.png",
-            "res/images/pro1/2.png",
-            "res/images/pro1/3.png"
+            "res/images/default.jpg",
+            "res/images/default.jpg",
+            "res/images/default.jpg"
         ],
         "description": "Device to to replace manual hand crank of a Pneumatic Filling Machine using ultrasonic rangefinder and a DC motor. User input is handled by a keypad, the amount and current position is displayed to a seven segment display. ",
         "tools": [
@@ -88,9 +88,9 @@ var data = {
         "name": "Milk Quality Control Instrument",
         "type": "IoT, Web Development",
         "images": [
-            "res/images/pro1/1.png",
-            "res/images/pro1/2.png",
-            "res/images/pro1/3.png"
+            "res/images/minilab/1.jpg",
+            "res/images/minilab/2.jpg",
+            "res/images/minilab/3.jpg"
         ],
         "description": "Factory instrument to measure incoming milk supply quality. The device measures the Ph level, liquid density, and temperature of the milk. The data is stored in a database inside a RaspberryPi to be viewed with the web interface.",
         "tools": [
@@ -133,13 +133,12 @@ var data = {
     },
     "TAIO & Trawler": {
         "name": "TAIO & Trawler",
-        "type": "Machine Learning",
+        "type": "Machine Learning, Image Processing",
         "images": [
-            "res/images/pro1/1.png",
-            "res/images/pro1/2.png",
-            "res/images/pro1/3.png"
+            "res/images/taiotrawler/1.jpg",
+            "res/images/taiotrawler/2.jpg"
         ],
-        "description": "TAIO Organize images based on the character names, input image is scanned for faces and crop it for comparison. Currently works on anime characters. Trawler is another program created to automate dataset creation for TAIO using thumbnails from an image collection site, creates a small dataset to identify and crop faces from video file.",
+        "description": "TAIO Organize images based on the character names, input image is scanned for faces and crop it for comparison. Currently works on anime characters. Trawler is another program created to automate dataset creation for TAIO using thumbnails from an image collection site, creates a small dataset to identify and crop faces from video file, color averages of each image is then calculcated to remove duplicates.",
         "tools": [
             {
                 "name": "Tensorflow",
@@ -155,6 +154,10 @@ var data = {
             },
             {
                 "name": "TKinter",
+                "class": "program",
+            },
+            {
+                "name": "Jupyter",
                 "class": "program",
             }
         ],
@@ -175,9 +178,9 @@ var data = {
         "name": "BLINKENLIGHTS",
         "type": "IoT",
         "images": [
-            "res/images/pro1/1.png",
-            "res/images/pro1/2.png",
-            "res/images/pro1/3.png"
+            "res/images/default.jpg",
+            "res/images/default.jpg",
+            "res/images/default.jpg"
         ],
         "description": "Cloud Server light indicator aka cloud blinkenlights, consist of 8 LED lights that can be controlled individually through MQTT protocol. A program is ran to listen for system activities or hardware status and watch the lights go off.",
         "tools": [
