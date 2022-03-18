@@ -7,7 +7,7 @@ var data = {
             "res/images/gdpay/2.jpg",
             "res/images/gdpay/3.jpg"
         ],
-        "description": "Cashless payment system used inside a local village. Designed to be able to integrate future services, highly secure, & requires minimal operator. Built around both desktop and mobile interface while maintaining Progressive Web App requirements.",
+        "description": "Cashless payment system used inside a local village. Designed to be able to integrate future services, highly secure, & requires minimal operator. Built around both desktop and mobile interface while maintaining Progressive Web App requirements. <br>Each page is heavily optimized to stay under 1MB ensuring performance to users and low overhead on the server.",
         "tools": [
             {
                 "name": "HTML/CSS",
